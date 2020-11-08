@@ -17,6 +17,7 @@
 # /[Aa]ssets/AssetStoreTools*
 
 /[Aa]ssets/Tests/
+/[Aa]ssets/Tests.meta
 /[Aa]ssets/.DS_Store
 /.idea/
 
