@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
@@ -29,17 +30,27 @@ public class WaveGenerator : MonoBehaviour {
     }
 
     public WaveEnumerator waveEnumerator;
+    public int totalWave = 7;
+    public float waveInterval = 5f;
+    private bool canStartWave;
+    private bool isWaiting;
+    private int waveCount;
     private WavePattern pattern;
     private List<GameObject> spawnPoints = new List<GameObject>();
     private List<int> usedSpawnPoint = new List<int>();
     public GameObject player;
     public GameObject playerBase;
+    public GameObject waveStartUI;
+    public GameObject waveFinishUI;
     public GameObject finishUI;
+    public SpriteRenderer playerRenderer;
+    public Sprite perfectCircle;
 
     // Start is called before the first frame update
     void Start() {
         instance = this;
         foreach (GameObject spawnPoint in GameObject.FindGameObjectsWithTag("Respawn")) spawnPoints.Add(spawnPoint);
+        StartCoroutine(DisplayUI(waveStartUI, 3));
         LoadNextWave();
     }
 
@@ -56,16 +67,42 @@ public class WaveGenerator : MonoBehaviour {
         if (pattern == null) return;
         if (pattern.totalEnemies == pattern.deadEnemies) { //if there are no more enemies
             // Debug.Log(pattern.totalEnemies);
-            Debug.Log("Wave finished");
-            LoadNextWave();
+            if (!canStartWave) {
+                if (!isWaiting) {
+                    isWaiting = true;
+                    Debug.Log("Wave finishes");
+                    StartCoroutine(DisplayUI(waveFinishUI, 3));
+                    StartCoroutine(WaitForNextWaveToStart());
+                }
+            } else {
+                canStartWave = false;
+                isWaiting = false;
+                StartCoroutine(DisplayUI(waveStartUI, 3));
+                LoadNextWave();
+            }
         }
+    }
+
+    public IEnumerator WaitForNextWaveToStart() {
+        yield return new WaitForSeconds(waveInterval);
+        canStartWave = true;
+    }
+
+    public IEnumerator DisplayUI(GameObject ui, float duration) {
+        ui.SetActive(true);
+        yield return new WaitForSeconds(duration);
+        ui.SetActive(false);
     }
 
     public void LoadNextWave() {
         pattern = waveEnumerator.NextWave();
-        
-        if (pattern == null) {
+        waveCount += 1;
+        if (waveCount > totalWave) {
             finishUI?.SetActive(true);
+            if (playerRenderer) {
+                playerRenderer.sprite = perfectCircle;
+                playerRenderer.transform.localScale = new Vector3(2, 2, 2);
+            }
             return;
         }
         

@@ -8,6 +8,8 @@
           <e p="AudioManager.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
           <e p="BasicEnemyMovement.cs" t="Include" />
+          <e p="BossController.cs" t="Include" />
+          <e p="BossShieldController.cs" t="Include" />
           <e p="BulletController.cs" t="Include" />
           <e p="BurstGunController.cs" t="Include" />
           <e p="CameraFollower.cs" t="Include" />
@@ -18,6 +20,7 @@
           <e p="GrenadeThrowerController.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="IWeapon.cs" t="Include" />
+          <e p="JuggernautDamage.cs" t="Include" />
           <e p="LaserBulletController.cs" t="Include" />
           <e p="LaserController.cs" t="Include" />
           <e p="LaserSight.cs" t="Include" />

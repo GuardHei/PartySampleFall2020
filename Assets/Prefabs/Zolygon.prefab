@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
-  hitSfx: {fileID: 0}
-  deathSfx: {fileID: 0}
+  hitSfx: {fileID: 8300000, guid: baaa07a5fa52b4d47a9b8dc53857f848, type: 3}
+  deathSfx: {fileID: 8300000, guid: d4561137d38cc48b997aaf6a46df0cb3, type: 3}
   onHit:
     m_PersistentCalls:
       m_Calls: []

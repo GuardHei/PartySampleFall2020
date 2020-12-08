@@ -34,7 +34,7 @@ public class CreeperController : MonoBehaviour {
         
         if (movementController != null) {
             if (movementController.distanceSqrToTarget <= radius * radius && movementController.distanceSqrToTarget != 0) {
-                Debug.Log(movementController.distanceSqrToTarget + " " + radius * radius);
+                // Debug.Log(movementController.distanceSqrToTarget + " " + radius * radius);
                 movementController.speed = slowSpeed * 1.5f;
                 if (firstEncounterTime < 0) {
                     firstEncounterTime = Time.time;

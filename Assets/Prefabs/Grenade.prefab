@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4565091142361188549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.68, y: 5.59, z: -3.8132432}
-  m_LocalScale: {x: 0.40101272, y: 0.37605506, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c8c09bab77d9d0547a55bf33584fb38b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f84302fbe2744ec1b0ec7586b63b102, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,14 +93,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4565091142361188549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8dbd6a7ad7c4d278d333317f92530bb, type: 3}
+  m_Script: {fileID: 11500000, guid: f7dc5f9d82bb24c1693c5f30d6abc53e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageTag: Enemy
-  damage: 30
-  timeToExplode: 2
-  radius: 20
-  explodeSfx: {fileID: 8300000, guid: b68d6e1e74b404353bc8d9cf35f2dd4c, type: 3}
+  damageTag: Player
+  damage: 0
+  timeToExplode: 0
+  radius: 0
+  explodeSfx: {fileID: 8300000, guid: 422471937124d4ceb88fa5571231a214, type: 3}
   timeStart: 0
   currentTime: 0
 --- !u!50 &4565091142361188568
@@ -139,4 +139,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.7

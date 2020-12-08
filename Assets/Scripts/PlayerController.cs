@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 
 	[Header("Settings")]
 	public int healthLimit = 6;
-	public int edge = 5;
+	public int edge = 6;
 	public int score;
 	public float speed;
 	public KeyCode upKey = KeyCode.W;
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour {
 		Application.targetFrameRate = 60;
 		health = GetComponent<Health>();
 		health.onHit.AddListener(UpdateSprite);
+		health.onRecover.AddListener(UpdateSprite);
 		UpdateSprite();
 	}
 
@@ -73,7 +74,7 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKeyUp(fireKey)) weapon.OnTriggerReleased();
 
 		foreach (var pair in weaponKeyPairs) {
-			if (pair.weapon && weapon != pair.weapon) {
+			if (pair.enabled && pair.weapon && weapon != pair.weapon) {
 				if (Input.GetKeyUp(pair.keyCode)) {
 					weapon.SwitchOff();
 					weapon = pair.weapon;
@@ -87,10 +88,18 @@ public class PlayerController : MonoBehaviour {
 		Debug.Log("YOU DIED !");
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
+
+	public void PickEdge() {
+		edge++;
+		if (edge > healthLimit) edge = healthLimit;
+		else health.maxHealth++;
+		health.Recover(health.maxHealth);
+	}
 }
 
 [Serializable]
 public class WeaponKeyPair {
 	public KeyCode keyCode;
 	public IWeapon weapon;
+	public bool enabled;
 }

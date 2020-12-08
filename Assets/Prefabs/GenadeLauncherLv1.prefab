@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 8078665939518480006}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: -3}
-  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 8078665940541965776}
   m_Father: {fileID: 8078665940648932525}
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c8c09bab77d9d0547a55bf33584fb38b, type: 3}
-  m_Color: {r: 1, g: 0.02417057, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 9770abd2b611d4e8da325b793cd274ab, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -204,17 +204,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 8078665940648932522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cac73dccc8e4d2cab041860ed156ceb, type: 3}
+  m_Script: {fileID: 11500000, guid: 39dadb367b0554e77a5a9ecc635667f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fireSfx: {fileID: 8300000, guid: e57602ecb986e485f89ab54ad168ff08, type: 3}
-  damage: 3
-  bulletSpeed: 3
-  timeToExplode: 1.5
+  damage: 0
+  bulletSpeed: 0
+  timeToExplode: 3
   radius: 3
-  fireInterval: 1.5
+  fireInterval: 0.5
   damageTag: Enemy
   fireOrigin: {fileID: 8078665940541965776}
-  grenadePrototype: {fileID: 4565091142361188549, guid: 5fdec23ec9694486db73dbf5bc7ad389,
+  grenadePrototype: {fileID: 4565091142361188549, guid: dd9fd214bc41540c89eaac053eb8f137,
     type: 3}
   lastFireTime: 0

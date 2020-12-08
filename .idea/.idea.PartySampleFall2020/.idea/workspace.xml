@@ -4,46 +4,35 @@
     <list default="true" id="00f732f6-0f6d-478f-9ab3-0e991a5b53d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleFall2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleFall2020/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleFall2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleFall2020/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Burst Gun Lv1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Burst Gun Lv1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Creeper-gon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Creeper-gon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DefaultGunLv1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DefaultGunLv1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GenadeLauncherLv1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GenadeLauncherLv1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grenade.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grenade.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LaserGun.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LaserGun.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LaserGunLv1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LaserGunLv1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Missile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Missile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MissileLauncherLv1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MissileLauncherLv1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShotgunLv1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShotgunLv1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Speedy Zolygon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Speedy Zolygon.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zolygon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Zolygon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GrenadeTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GrenadeTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LaserTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LaserTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PlayTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PlayTestScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BasicEnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BasicEnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BurstGunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BurstGunController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GrenadeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GrenadeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreeperController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CreeperController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EdgeBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EdgeBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserBulletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaserBulletController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LaserSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LaserSight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaveGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaveGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Submissions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Creeper.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Creeper.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperHealth.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperHealth.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/CreeperTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Dead Player Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Dead Player Movement/DeadPlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Dead Player Movement/DeadPlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Dead Player Movement/DeadPlayerMovementTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Dead Player Movement/DeadPlayerMovementTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WaveGenerator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WaveGenerator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WaveGeneratorTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Submissions/WaveGeneratorTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossShieldController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossShieldController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/BossTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +50,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Tests/TestBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LaserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/a2/80599bf6/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossShieldController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/9c/7e238b29/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/77/da74a990/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/6a/00115ff7/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.14/UnityEngine.TestRunner/TestRunner/Callbacks/PlayerQuitHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Creeper-gon.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/436FF63E-426F-4768-A54B-CA63B0391A71/25/7ff2974b/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Health Bar.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,6 +74,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/e3/fe9d55bc/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GrenadeThrowerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BossController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18296D29-697F-423C-917B-EC027CBA889E/b0/a5704e44/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MissileController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IWeapon.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,7 +91,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" />
         <option value="$PROJECT_DIR$/Assets/Submissions/EdgeBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BasicEnemeyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Submissions/CreeperHealth.cs" />
@@ -110,7 +102,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShotgunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrenadeThrowerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EdgeBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Submissions/Laser/LaserController.cs" />
         <option value="$PROJECT_DIR$/Assets/Submissions/Burst Gun/BurstGunController.cs" />
@@ -124,14 +115,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BurstGunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LaserController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrenadeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreUpdate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BasicEnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MissileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Submissions/BossShieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Submissions/BossController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EdgeBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreeperController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MissileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaveGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossShieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreUpdate.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +200,8 @@
       <workItem from="1605449741598" duration="3687000" />
       <workItem from="1606030107005" duration="4899000" />
       <workItem from="1606046008243" duration="17231000" />
+      <workItem from="1606092203826" duration="1528000" />
+      <workItem from="1607272379661" duration="23283000" />
     </task>
     <servers />
   </component>

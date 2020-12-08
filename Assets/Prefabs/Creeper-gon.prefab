@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   encounterTime: 2
   radius: 7
+  explodeRadius: 2.5
   damage: 2
   explodeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &8577450370789487934
@@ -116,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  hitSfx: {fileID: 0}
-  deathSfx: {fileID: 8300000, guid: b8c6ccb058ef64e749eb6b557f4ca493, type: 3}
+  hitSfx: {fileID: 8300000, guid: baaa07a5fa52b4d47a9b8dc53857f848, type: 3}
+  deathSfx: {fileID: 8300000, guid: d4561137d38cc48b997aaf6a46df0cb3, type: 3}
   onHit:
     m_PersistentCalls:
       m_Calls: []

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [ExecuteInEditMode]
 public class BulletController : MonoBehaviour {

@@ -4,12 +4,13 @@ using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class Health : MonoBehaviour {
-	
+
 	[Header("Settings")]
 	public int maxHealth;
 	public AudioClip hitSfx;
 	public AudioClip deathSfx;
 	public UnityEvent onHit;
+	public UnityEvent onRecover;
 	public UnityEvent onDeath;
 
 	[Header("Configurations")]
@@ -51,6 +52,13 @@ public class Health : MonoBehaviour {
 		// when health is negative, call onDeath event if it is not null
 		if (health <= 0) onDeath?.Invoke(); // equals to if (onDeath != null) onDeath.Invoke();
 		else RefreshUI();
+	}
+
+	public void Recover(int amount) {
+		health += amount;
+		if (health > maxHealth) health = maxHealth;
+		onRecover?.Invoke();
+		RefreshUI();
 	}
 
 	public void SelfDestruct() {
